@@ -1,0 +1,12 @@
+
+//Utils
+@use "./scss/utils/variables";
+@use "./scss/utils/mixins";
+
+//css
+@use "./scss/base/base";
+@use "./scss/layout/header";
+@use "./scss/layout/footer";
+@use "./scss/layout/main";
+@use "./scss/pages/index";
+@use "./scss/components/buttons";

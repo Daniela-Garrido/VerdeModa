@@ -1,0 +1,17 @@
+
+//mixin Codigo que vas a utilizar muchas veces se llama con @include
+//mixin parametrico  
+
+/* @mixin Flex ($df: inline-block, $jc: space-around, $ai: static) {
+    display: $df;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: wrap;
+    
+} */
+
+@function colors ($color){
+    @return map-get($colors, color);
+}
+
+

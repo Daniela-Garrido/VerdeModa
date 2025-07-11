@@ -1,0 +1,24 @@
+@use "../utils/variables" as *;
+@use "../utils/mixins";
+
+.header {
+    height: 90px;
+    margin: 20px;
+    padding: auto;
+    border: 20px;
+    background-color: map-get($colors, "primary");
+    border-radius: 2px;
+    
+}
+
+.header__nav {
+
+    display: inline-flex
+    
+}
+
+.header__link {
+
+    text-align:center;
+
+}
