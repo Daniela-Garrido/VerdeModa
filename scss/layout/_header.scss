@@ -6,19 +6,19 @@
     margin: 20px;
     padding: auto;
     border: 20px;
-    background-color: map-get($colors, "primary");
+    background-color: map-get($colors, "header-bg");
     border-radius: 2px;
-    
+    color: map-get($colors,"white");
 }
 
 .header__nav {
 
-    display: inline-flex
-    
+    padding: 20px;
+    display: flex;
 }
 
-.header__link {
+.header__link a {
 
-    text-align:center;
-
+    color: map-get($colors, "light-gray");
+    font-size: 17px;
 }

@@ -3,15 +3,16 @@
 
 
 .btn {
-    display: inline-block;
-    padding: 8px 16px;
+    
     background-color: map-get(variables.$colors, "primary");
     text-decoration: none;
     border-radius: 4px;
-    margin: 16px;
     color: white;
-
-    :hover {
-        background-color: map-get(variables.$colors, "secundary");
-    }
+    padding: 10px;
+    
 }
+
+.btn:hover {
+        background-color: map-get(variables.$colors, "footer-bg");
+    }
+

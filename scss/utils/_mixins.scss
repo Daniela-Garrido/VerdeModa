@@ -2,13 +2,14 @@
 //mixin Codigo que vas a utilizar muchas veces se llama con @include
 //mixin parametrico  
 
-/* @mixin Flex ($df: inline-block, $jc: space-around, $ai: static) {
+@mixin Flex ($df: flex, $jc: center, $ai: center) {
     display: $df;
     justify-content: $jc;
     align-items: $ai;
+    flex-direction: row;
     flex-wrap: wrap;
     
-} */
+} 
 
 @function colors ($color){
     @return map-get($colors, color);

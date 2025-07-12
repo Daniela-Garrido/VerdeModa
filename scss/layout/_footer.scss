@@ -2,9 +2,9 @@
 @use "../utils/variables" as *;
 
 
-
 .footer {
-    background-color: map-get($colors, "primary");
+    background-color: map-get($colors, "footer-bg");
+    
 
 }
 
