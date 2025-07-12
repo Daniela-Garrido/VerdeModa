@@ -4,7 +4,20 @@
 
 .footer {
     background-color: map-get($colors, "footer-bg");
-    
-
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
 }
 
+.footer__content {
+
+    padding: 30px;
+}
+
+.content__title a{
+
+    padding: 30px;
+    color: white;
+    border: 20px;
+}

@@ -2,18 +2,21 @@
 @use "../utils/mixins";
 
 .header {
-    height: 90px;
+    height: 70px;
     margin: 20px;
     padding: auto;
-    border: 20px;
     background-color: map-get($colors, "header-bg");
     border-radius: 2px;
     color: map-get($colors,"white");
 }
 
+.header__title {
+    padding: 10px;
+
+}
+
 .header__nav {
 
-    padding: 20px;
     display: flex;
 }
 
@@ -21,4 +24,9 @@
 
     color: map-get($colors, "light-gray");
     font-size: 17px;
+}
+
+.header__nav img {
+     
+    height: 380px;
 }

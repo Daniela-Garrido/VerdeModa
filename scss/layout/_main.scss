@@ -4,20 +4,23 @@
 
 .main-container {
 
-    background-image: url(/assets/img/pngegg\ \(3\).png);
     background-position: top;
-    background-size: 35%;
     background-repeat: no-repeat;
     padding: 20px;
-
 
 }
 
 .content {
-    background-color: map-get($colors, "light-gray");
+
+    background-image: url(https://wallpapers.com/images/high/trippy-hippie-ouwrt9b5b5umtebj.webp);
+    background-repeat:initial;
     text-align: center;
     border: 20px;
-    height: 200px;
+    height: 180px;
     padding: 20px;
+}
 
+.content__tex {
+
+    background-color: rgba(250, 235, 215, 0.623);
 }
