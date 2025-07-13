@@ -33,10 +33,11 @@ h2 {
 .header__link a {
   color: rgba(223, 223, 223, 0.6784313725);
   font-size: 17px;
+  padding: 2px;
 }
 
 .header__nav img {
-  height: 380px;
+  height: 390px;
 }
 
 .footer {
@@ -55,6 +56,11 @@ h2 {
   padding: 30px;
   color: white;
   border: 20px;
+}
+
+.footer__img {
+  height: 120px;
+  padding: 10px;
 }
 
 .card__container {
@@ -112,16 +118,24 @@ h2 {
 }
 
 .content {
-  background-image: url(https://wallpapers.com/images/high/trippy-hippie-ouwrt9b5b5umtebj.webp);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/009/009/853/non_2x/grioovy-psychedelic-wave-background-for-banner-design-retro-60s-70s-psychedelic-pattern-modern-wave-retro-abstract-design-rainbow-60s-70s-hippie-vector.jpg);
   background-repeat: initial;
   text-align: center;
   border: 20px;
   height: 180px;
   padding: 20px;
+  border-radius: 3px;
 }
 
 .content__tex {
-  background-color: rgba(250, 235, 215, 0.623);
+  background-color: rgba(250, 235, 215, 0.61);
+}
+
+.card__p {
+  background-color: rgba(255, 255, 255, 0.596);
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .btn {

@@ -12,15 +12,18 @@
 
 .content {
 
-    background-image: url(https://wallpapers.com/images/high/trippy-hippie-ouwrt9b5b5umtebj.webp);
-    background-repeat:initial;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/009/853/non_2x/grioovy-psychedelic-wave-background-for-banner-design-retro-60s-70s-psychedelic-pattern-modern-wave-retro-abstract-design-rainbow-60s-70s-hippie-vector.jpg);
     text-align: center;
     border: 20px;
     height: 180px;
     padding: 20px;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.content__tex {
+.card__p {
 
-    background-color: rgba(250, 235, 215, 0.623);
+    background-color: aqua;
 }
